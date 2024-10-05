@@ -9,7 +9,7 @@ def add_everything_up(a, b):
     except TypeError:
         return str(a) + str(b)
 
-# Примеры использования
+# Пример кода:
 
 print(add_everything_up(123.456, 'строка'))
 print(add_everything_up('яблоко', 4215))
